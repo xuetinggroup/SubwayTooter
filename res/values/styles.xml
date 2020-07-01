@@ -1,0 +1,242 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- light theme -->
+    <style name="AppTheme.Light.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="android:windowBackground">@drawable/window_background</item>
+        <item name="android:textColor">?attr/colorContentText</item>
+
+        <item name="colorPrimary">@color/Light_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/Light_colorPrimaryDark</item>
+        <item name="colorAccent">@color/Light_colorAccent</item>
+
+        <item name="colorLink">@color/Light_colorLink</item>
+        <item name="list_item_bg_pressed_dragged">@color/Light_list_item_bg_pressed_dragged</item>
+        <item name="color_column_header">@color/Light_color_column_header</item>
+        <item name="colorImageButton">@color/Light_colorImageButton</item>
+        <item name="colorImageButtonAccent">@color/Light_colorImageButtonAccent</item>
+        <item name="colorRippleEffect">@color/Light_colorRippleEffect</item>
+        <item name="colorButtonSelected">@color/Light_colorButtonSelected</item>
+        <item name="colorReplyBackground">@color/Light_colorReplyBackground</item>
+        <item name="colorColumnListDeleteBackground">@color/Light_colorColumnListDeleteBackground
+        </item>
+        <item name="colorColumnListDeleteText">@color/Light_colorColumnListDeleteText</item>
+        <item name="colorColumnListDragHandleBackground">
+            @color/Light_colorColumnListDragHandleBackground
+        </item>
+        <item name="colorThumbnailBackground">@color/Light_colorThumbnailBackground</item>
+        <item name="colorColumnListItemText">@color/Light_colorColumnListItemText</item>
+        <item name="colorTimeSmall">@color/Light_colorTimeSmall</item>
+        <item name="colorContentText">@color/Light_colorContentText</item>
+        <item name="colorProfileBackgroundMask">@color/Light_colorProfileBackgroundMask</item>
+        <item name="colorShowMediaBackground">@color/Light_colorShowMediaBackground</item>
+        <item name="colorShowMediaText">@color/Light_colorShowMediaText</item>
+        <item name="colorColumnHeaderAcct">@color/Light_colorColumnHeaderAcct</item>
+        <item name="colorColumnHeaderPageNumber">@color/Light_colorColumnHeaderPageNumber</item>
+        <item name="colorColumnSettingBackground">@color/Light_colorColumnSettingBackground</item>
+        <item name="colorSearchFormBackground">@color/Light_colorSearchFormBackground</item>
+        <item name="colorSettingDivider">@color/Light_colorSettingDivider</item>
+
+        <item name="colorRegexFilterError">@color/Light_colorRegexFilterError</item>
+        <item name="colorPostFormBackground">@color/Light_colorPostFormBackground</item>
+        <item name="colorColumnStripBackground">@color/Light_colorColumnStripBackground</item>
+        <item name="colorColumnHeaderName">@color/Light_colorColumnHeaderName</item>
+        <item name="colorStatusButtonsPopupBg">@color/Light_colorStatusButtonsPopupBg</item>
+        <item name="colorButtonBgCw">@color/Light_colorButtonBgCw</item>
+        <item name="colorRefreshErrorBg">@color/Light_colorRefreshErrorBg</item>
+        <item name="colorVectorDrawable">@color/Light_colorVectorDrawable</item>
+        <item name="colorWindowBackground">@color/Light_colorBackground</item>
+
+    </style>
+
+    <style name="AppTheme.Dark.Base" parent="Theme.AppCompat">
+
+        <item name="android:windowBackground">@drawable/window_background</item>
+        <item name="android:textColor">?attr/colorContentText</item>
+
+        <item name="android:navigationBarColor">@color/Dark_colorColumnStripBackground</item>
+
+        <item name="colorPrimary">@color/Dark_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/Dark_colorPrimaryDark</item>
+        <item name="colorAccent">@color/Dark_colorAccent</item>
+
+        <item name="colorLink">@color/Dark_colorLink</item>
+        <item name="list_item_bg_pressed_dragged">@color/Dark_list_item_bg_pressed_dragged</item>
+        <item name="color_column_header">@color/Dark_color_column_header</item>
+        <item name="colorImageButton">@color/Dark_colorImageButton</item>
+        <item name="colorImageButtonAccent">@color/Dark_colorImageButtonAccent</item>
+        <item name="colorRippleEffect">@color/Dark_colorRippleEffect</item>
+        <item name="colorButtonSelected">@color/Dark_colorButtonSelected</item>
+        <item name="colorReplyBackground">@color/Dark_colorReplyBackground</item>
+        <item name="colorColumnListDeleteBackground">@color/Dark_colorColumnListDeleteBackground
+        </item>
+        <item name="colorColumnListDeleteText">@color/Dark_colorColumnListDeleteText</item>
+        <item name="colorColumnListDragHandleBackground">
+            @color/Dark_colorColumnListDragHandleBackground
+        </item>
+        <item name="colorThumbnailBackground">@color/Dark_colorThumbnailBackground</item>
+
+        <item name="colorColumnListItemText">@color/Dark_colorColumnListItemText</item>
+        <item name="colorTimeSmall">@color/Dark_colorTimeSmall</item>
+        <item name="colorContentText">@color/Dark_colorContentText</item>
+
+        <item name="colorProfileBackgroundMask">@color/Dark_colorProfileBackgroundMask</item>
+        <item name="colorShowMediaBackground">@color/Dark_colorShowMediaBackground</item>
+        <item name="colorShowMediaText">@color/Dark_colorShowMediaText</item>
+        <item name="colorColumnHeaderAcct">@color/Dark_colorColumnHeaderAcct</item>
+        <item name="colorColumnHeaderPageNumber">@color/Dark_colorColumnHeaderPageNumber</item>
+        <item name="colorColumnSettingBackground">@color/Dark_colorColumnSettingBackground</item>
+        <item name="colorSearchFormBackground">@color/Dark_colorSearchFormBackground</item>
+        <item name="colorSettingDivider">@color/Dark_colorSettingDivider</item>
+        <item name="colorRegexFilterError">@color/Dark_colorRegexFilterError</item>
+        <item name="colorPostFormBackground">@color/Dark_colorPostFormBackground</item>
+        <item name="colorColumnStripBackground">@color/Dark_colorColumnStripBackground</item>
+        <item name="colorColumnHeaderName">@color/Dark_colorColumnHeaderName</item>
+        <item name="colorStatusButtonsPopupBg">@color/Dark_colorStatusButtonsPopupBg</item>
+        <item name="colorButtonBgCw">@color/Dark_colorButtonBgCw</item>
+        <item name="colorRefreshErrorBg">@color/Dark_colorRefreshErrorBg</item>
+
+        <item name="colorVectorDrawable">@color/Dark_colorVectorDrawable</item>
+        <item name="colorWindowBackground">@color/Dark_colorBackground</item>
+
+    </style>
+
+    <style name="AppTheme.Light.NoActionBar" parent="AppTheme.Light">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.Dark.NoActionBar" parent="AppTheme.Dark">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="setting_group_header">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">32dp</item>
+
+    </style>
+
+    <style name="setting_row_form">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:baselineAligned">true</item>
+
+        <item name="android:layout_marginLeft">32dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+
+        <item name="android:layout_marginStart" tools:ignore="NewApi">32dp</item>
+        <item name="android:layout_marginEnd" tools:ignore="NewApi">0dp</item>
+
+    </style>
+
+    <style name="setting_row_button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">36dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:layout_marginStart" tools:ignore="NewApi">36dp</item>
+        <item name="android:layout_marginEnd" tools:ignore="NewApi">0dp</item>
+        <item name="android:background">@drawable/btn_bg_transparent_round6dp</item>
+        <item name="android:gravity">start|center_vertical</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:paddingStart">12dp</item>
+    </style>
+
+    <style name="setting_row_label">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+
+        <item name="android:paddingStart" tools:ignore="NewApi">0dp</item>
+        <item name="android:paddingEnd" tools:ignore="NewApi">0dp</item>
+
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="setting_row_label_indent1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:baselineAligned">true</item>
+
+        <item name="android:paddingLeft">48dp</item>
+        <item name="android:paddingRight">0dp</item>
+
+        <item name="android:paddingStart" tools:ignore="NewApi">48dp</item>
+        <item name="android:paddingEnd" tools:ignore="NewApi">0dp</item>
+
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="setting_row_form_fields" parent="setting_row_form">
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingStart" tools:ignore="NewApi">8dp</item>
+        <item name="android:paddingEnd" tools:ignore="NewApi">0dp</item>
+
+    </style>
+
+    <style name="setting_row_help">
+        <item name="android:background">@drawable/btn_bg_transparent_round6dp</item>
+        <item name="android:textColor">?attr/colorAccent</item>
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:minWidth">32dp</item>
+        <item name="android:minHeight">32dp</item>
+
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+
+        <item name="android:layout_marginStart" tools:ignore="NewApi">8dp</item>
+        <item name="android:layout_marginEnd" tools:ignore="NewApi">0dp</item>
+
+        <item name="android:text">@string/question</item>
+    </style>
+
+    <style name="setting_divider">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">?attr/colorSettingDivider</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:layout_marginBottom">12dp</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="setting_horizontal_stretch">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="setting_wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="setting_edit_text" parent="@style/setting_horizontal_stretch">
+        <item name="android:imeOptions">actionDone</item>
+    </style>
+
+    <style name="recycler_view_with_scroll_bar">
+        <item name="android:clipToPadding">false</item>
+        <item name="android:fadeScrollbars">false</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+
+    </style>
+
+</resources>
